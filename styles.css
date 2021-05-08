@@ -1,0 +1,181 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dancing Script', cursive;
+}
+/*-------Main Navbar--------*/
+.banner
+{
+	width: 100%;
+	height: 700px;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(IMAGES/1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.fab
+{
+	margin: 8px;
+}
+#main-nav
+{
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.7);
+	position: sticky;
+	top: 0px;
+}
+#main-nav h1
+{
+	color: white;
+	font-size: 45px;
+}
+#main-nav #nav-items a
+{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+#main-nav #nav-items a:hover
+{
+	background-color: orange;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white;
+}
+.active
+{
+	background-color: orange;
+	text-shadow: 0 0 10px white;
+}
+
+/*-----Main Content Section-----*/
+#banner-text
+{
+	text-align: center;
+	margin-top: 200px;
+}
+#features
+{
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+}
+
+#features p
+{
+	font-size: 25px;
+	color: darkslategrey;
+}
+
+.title-text
+{
+	background-color: rgba(0,0,0,0.7);
+	margin: 30px 100px;
+	color: orange;
+	font-weight: bolder;
+	padding: 15px;
+	border-radius: 10px;
+}
+.main-content-article
+{
+	display: inline-block;
+}
+.main-content-article img
+{
+	margin: auto;
+	width: 80%;
+}
+
+/*----Main-header---*/
+#main-header
+{
+	font-size: 35px;
+	text-align:center;
+	color: darkorange;
+	margin-bottom: 50px;
+}
+.fa
+{
+	padding-left: 20px;
+}
+/*----Main-Content----*/
+#main-content
+{
+	font-size: 25px;
+	color: rgba(0,0,0,0.6);
+	line-height: 50px;
+	margin: 50px;
+	text-align: justify;
+	word-spacing: 7px;
+	letter-spacing: 5px;
+}
+/*---- main footer----*/
+#main-footer
+{
+	background-color: orange;
+	color: black;
+	text-align:center;
+	padding: 25px;
+	line-height: 30px;
+}
+/*----GALLERY-----*/
+figure img
+{
+	height:280px; 
+	width:400px;
+	border-radius: 20px;
+	margin: 50px;
+}
+/*----Contact US----*/
+.banner1
+{
+	width: 100%;
+	height: 450px;
+	background-image:url(IMAGES/1.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+
+@media (max-width:650px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+		text-align: center;
+	}
+	#main-nav a
+	{
+		margin-top:10px;
+		display: block;
+	}
+	section #art1 #img1
+	{
+		height: 80%;
+		width: 100%;
+	}
+}
+@media (min-width:651px) and (max-width: 1300px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+		text-align: center;
+	}
+	#main-nav a
+	{
+		margin-top:10px;
+		display: block;
+	}
+	section #art1 #img1
+	{
+		height: 80%;
+		width: 100%;
+	}
+}
